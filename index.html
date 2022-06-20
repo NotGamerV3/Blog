@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mi Primera Web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 500px;" >
+       <thead>
+        <tr>
+            <th>Producto</th>
+            <th>Precio</th>
+        </tr>
+       </thead>
+        ><tbody>
+            <tr>
+                <td>Cereal</td>
+                <td>2.000 Cop</td>
+            </tr>
+            <tr>
+                <td>Liberal</td>
+                <td>500 Cop</td>
+            </tr>
+            <tr>
+                <td>Salchipapas de Costilla</td>
+                <td>10.000 Cop</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total= 12.500 Cop</td>
+        </tfoot>
+    </table>
+    <!-- ul es lista no ordenada -->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul> 
+    <!-- ol es lista ordenada -->
+    <ol>
+        <li value="10" >Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">Sub Elemento 1</li>
+                <li style="list-style-type: lower-roman;">Sub Elemento 2</li>
+                <li style="list-style-type: lower-greek;">Sub Elemento 3</li>
+            </ol>
+        </li>
+    </ol> 
+
+    
+
+    <form action="/formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <input value="Name" type="text" id="nombre" name="nombre" placeholder="Nombre" />
+        <br><br>
+        <label for="nombre">Apellido</label>
+        <input value="Surname" type="text" id="apellido" name="apellido" placeholder="Apellido" />
+        <br><br>
+        <label for="comentario">comentario</label>
+        <br>
+        <textarea cols="25" rows="5" id="comentario" placeholder="Ingrese su comentario" name="comentario" >Comentario Ejemplo</textarea>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="button">Botón</button>
+        <button type="submit">Enviar</button>
+    </form>
+    <h1>Mi Primer Heading</h1>
+    <h2>Mi Segundo Heading</h2>
+    <h3>Mi Tercer Heading</h3>
+    <h4>Mi Cuarto Heading</h4>
+    <h5>Mi Quinto Heading</h5>
+    <h6>Mi Sexto Heading</h6>
+    <p>Esta web es de pruba</p>
+    <p>Esta web no es de pruba</p>
+    <hr>
+    <h2>Subtitulo</h2>
+    <p>
+        este texto es <span style="color:blue">mucho más largo</span>
+        y es para mostrar <br><br>
+        la etiqueta de span
+    </p>
+    <!-- es un comentario de prueba y no aparece en el navegador
+    gracias xd -->
+    <img src="img/coffee.png" height="400" /> 
+    <br>
+    <a target="_blank" href="https://www.youtube.com/watch?v=MJkdaVFHrto&ab_channel=HolaMundo">Ir a Tutorial</a>
+    <form>
+        <input />
+    </form>
+</body>
+</html>
